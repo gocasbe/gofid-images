@@ -1,0 +1,10 @@
+{
+  "name": "gofid-images",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static image repository for GOFID product and reward images.",
+  "scripts": {
+    "index": "node scripts/generate-index.js",
+    "check": "node scripts/generate-index.js --check"
+  }
+}
